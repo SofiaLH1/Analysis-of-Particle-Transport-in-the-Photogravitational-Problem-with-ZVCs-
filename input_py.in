@@ -1,0 +1,17 @@
+/Users/sofialasky/Python/Thesis/CR3BP_Poincare_PG_m1     # folder: Folder where the results will be saved
+3.0 3.0 0.05               # C0: initial Jacobi constant, CF: final Jacobi constant, DC: increment
+0.5 0.25                   # M1: primary mass, M2: secondary mass
+765.20654355               # T: orbital period, s
+1.e7                       # r_max: Distance to consider as escape, km
+1e-10                     # r1_min: Minimum distance from the 1st primary, solar radii
+1e-10                     # r2_min: Minimum distance from the 2nd primary, solar radii
+100.0 0.0001             # TLIM: limit time for the integration, DT1: initial time stepsize
+-1 1 0.1                # XI, XF, DX
+1                          # save_traj: Save trajectory? 0: no, 1: Yes (rotating frame)
+100                        # step_traj: output step for the trajectory file (multiple of 10)
+1                          # plot_traj: Plot trajectory? 0: no, 1: Yes (rotating frame)
+1.0 1.0 0.25               # q10: initial star 1 PG term, q1F: final star 1 PG term, Dq1: increment
+0.5 0.5 0.25               # q20: initial star 2 PG term, q2F: final star 2 PG term, Dq2: increment
+32                         # Cores: number of multiprocessing cores
+
+
